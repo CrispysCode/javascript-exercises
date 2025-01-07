@@ -1,8 +1,8 @@
- const palindromes = function (num) {
+ const palindromes = function (str) {
  let regExp = /[\W_]/g; 
 
   //Lowercase string & combine so there's no whitespace
- let lowRegStr = num.toLowerCase().replace(regExp, '');
+ let lowRegStr = str.toLowerCase().replace(regExp, '');
 
   //Stores the reversed lowRegStr in a variable to check if palindrome
  let reverseStr = lowRegStr.split('').reverse().join('');
