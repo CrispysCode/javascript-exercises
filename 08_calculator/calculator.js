@@ -26,7 +26,14 @@ const factorial = function(num) {
   } else {
     return num * factorial(num - 1);
   }
-	
+  /*
+  let product = 1;
+  for (let i = n; i > 0; i--) {
+    product *= 1;
+  }
+	return product;
+  }
+  */
 };
 
 // Do not edit below this line
